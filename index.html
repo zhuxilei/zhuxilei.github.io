@@ -6,9 +6,16 @@
         <script src="https://kit.fontawesome.com/92c2438e7f.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel='stylesheet' href='style.css'>
     </head>
 <style>
+     @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+      BODY {
+        background: #282931;
+        -webkit-font-smoothing: antialiased;
+        font-family: 'Varela Round', sans-serif;
+        height: 100%;
+      }
 <!--   
     .text1{
         background:-webkit-gradient(linear,10% 20%,30% 20%,from(#ec4a38),to(#eccf38));
@@ -30,22 +37,24 @@
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     size = 6;
-    font-family:courier;
+    font-family: 'Varela Round', sans-serif;
 }
 .serif {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
  </style>
-    <body bgcolor="gray">
+    <body>
+    <div id="particles-js">
         <div class="container-fluid main-container">
             <div class="row">
                 <div class="col-0" style='margin-top:50px;margin-left: 50px'>
                     <h2 class="wsite-content-title">
                         <font color="#a1a1a1">I am</font>
                         <br>
-                        <div class = serif>
-                            <font color="#2a2a2a">Xilei </font>
-                            <font color="#2a2a2a">Zhu </font>
+                        <div class = "svelte-1aal08w">
+                            <font color="#F7DC6F">Xilei </font>
+                            <font color="#F7DC6F">Zhu </font>
                         </div>  
                     </h2>
                         <font color="#a9e4f8" size=4;>Robotics Lover&nbsp;</font>
@@ -82,15 +91,18 @@
                         <div class="text3">
                          <p>A human from <a target="_blank" href="https://goo.gl/maps/TnE5bpW5MktWvvVz7"style="color:green">Hangzhou</a>, China to Virginia, U.S.</p>
                          </div>
-                         <div style="size:6; font-family:courier;">
+                         <div style="size:6;color:white;">
                         <p>A human that with different ideas</p>
                        </div>
-                        <div style="size:6; font-family:courier;">
+                        <div style="size:6;color:white;">
                         <p>A human that loves technology innovation</p> 
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+        <script type = 'text/javascript' src='particles.js'></script>
+        <script type = 'text/javascript' src='app.js'></script>
     </body>
 </html>
