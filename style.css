@@ -2,10 +2,63 @@ body
 {
 	margin:0 auto;
 	padding:0 auto;
-	height:0 auto;
+	box-sizing: border-box;
+	background: #282931;
 }
 #particle-js {
-    margin: 0 auto;
-    height:100%;
-    width: 100%;
+    margin: 0 ;
+    height:100% ;
+    width: 100% ;
+}
+#upper{
+	position:absolute;
+}
+.container
+{
+	position:relative;
+	width:300px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon
+{
+	width:300px;
+
+}
+.icon path
+{
+	fill:transparent;
+	stroke-width:3;
+	stroke:#ff9999;
+}
+.icon path
+{
+	stroke-dasharray:2570;
+	stroke-dashoffset:0;
+}
+.icon:hover path
+{
+	animation:animate-mars 2s linear forwards;
+}
+@keyframes animate-mars
+{
+	0%
+	{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:2570;
+	}
+	80%
+	{
+		stroke-dashoffset:5140;
+		fill:transparent;
+	}
+	100%
+	{
+		stroke-dashoffset:0;
+		fill:#ff9999;
+	}
 }
