@@ -4,6 +4,7 @@ body
 	padding:0 auto;
 	box-sizing: border-box;
 	background: #282931;
+
 }
 #particle-js {
     margin: 0 ;
@@ -12,32 +13,36 @@ body
 }
 #upper{
 	position:absolute;
+
+	
 }
 .container
 {
 	position:relative;
-	width:300px;
+	width:100px;
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.icon
+.icon0
 {
-	width:300px;
+	width:75px;
+	margin-left: 30%;
+	float: left;
 
 }
-.icon path
+.icon0 path
 {
 	fill:transparent;
 	stroke-width:3;
-	stroke:#ff9999;
+	stroke:#FFCCCC;
 }
-.icon path
+.icon0 path
 {
 	stroke-dasharray:2570;
 	stroke-dashoffset:0;
 }
-.icon:hover path
+.icon0:hover path
 {
 	animation:animate-mars 2s linear forwards;
 }
@@ -62,3 +67,183 @@ body
 		fill:#ff9999;
 	}
 }
+.icon1
+{
+	width:110px;
+	margin-left: 5%;
+	float: left;
+}
+.icon1 path
+{
+	fill:transparent;
+	stroke-width:3;
+	stroke:#C1ECDE;
+}
+.icon1 path
+{
+	stroke-dasharray:2510;
+	stroke-dashoffset:0;
+}
+.icon1:hover path
+{
+	animation:animate-mars 2s linear forwards;
+}
+@keyframes animate-mars
+{
+	0%
+	{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:2510;
+	}
+	80%
+	{
+		stroke-dashoffset:5020;
+		fill:transparent;
+	}
+	100%
+	{
+		stroke-dashoffset:0;
+		fill:#C1ECDE;
+	}
+}
+.icon2
+{
+	width:100px;
+	margin-left: 30%;
+	float: left;
+
+}
+.icon2 path
+{
+	fill:transparent;
+	stroke-width:3;
+	stroke:#CCFFFF;
+}
+.icon2 path
+{
+	stroke-dasharray:1840;
+	stroke-dashoffset:0;
+}
+.icon2:hover path
+{
+	animation:animate-mars 2s linear forwards;
+}
+@keyframes animate-mars
+{
+	0%
+	{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1840;
+	}
+	80%
+	{
+		stroke-dashoffset:3680;
+		fill:transparent;
+	}
+	100%
+	{
+		stroke-dashoffset:0;
+		fill:#CCFFFF;
+	}
+}
+.icon3
+{
+	width:70px;
+	margin-left: 20%;
+	float: left;
+}
+.icon3 path
+{
+	fill:transparent;
+	stroke-width:3;
+	stroke:#FFFFCC;
+}
+.icon3 path
+{
+	stroke-dasharray:1560;
+	stroke-dashoffset:0;
+}
+.icon3:hover path
+{
+	animation:animate-mars 2s linear forwards;
+}
+@keyframes animate-mars
+{
+	0%
+	{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1560;
+	}
+	80%
+	{
+		stroke-dashoffset:3120;
+		fill:transparent;
+	}
+	100%
+	{
+		stroke-dashoffset:0;
+		fill:#FFFFCC;
+	}
+}
+.icon5
+{
+	width:100px;
+	margin-left: 90%;
+	
+
+}
+.icon5 path
+{
+	fill:transparent;
+	stroke-width:3;
+	stroke:#FFFFCC;
+}
+.icon5 path
+{
+	stroke-dasharray:1560;
+	stroke-dashoffset:0;
+}
+.icon5:hover path
+{
+	animation:animate-mars 2s linear forwards;
+}
+@keyframes animate-mars
+{
+	0%
+	{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1560;
+	}
+	80%
+	{
+		stroke-dashoffset:3120;
+		fill:transparent;
+	}
+	100%
+	{
+		stroke-dashoffset:0;
+		fill:#FFFFCC;
+	}
+}
+.circle{
+	position: relative;
+	overflow:hidden;
+	width:300px;
+	height:300px;
+	float:left;
+	border-radius: 50%;
+	margin:0px;
+}
+a { text-decoration: none;}
