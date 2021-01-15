@@ -4,7 +4,6 @@ body
 	padding:0 auto;
 	box-sizing: border-box;
 	background: #282931;
-
 }
 #particle-js {
     margin: 0 ;
@@ -13,8 +12,6 @@ body
 }
 #upper{
 	position:absolute;
-
-	
 }
 .container
 {
@@ -247,3 +244,7 @@ body
 	margin:0px;
 }
 a { text-decoration: none;}
+#main-image-wrapper{
+	margin:10px auto;
+}
+#main-image-wrapper img{ border-radius:100%} 
